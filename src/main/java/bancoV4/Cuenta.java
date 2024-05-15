@@ -20,8 +20,8 @@ public class Cuenta implements Serializable {
     private String titular;
     private String correo;
     private double saldo;
-    private LocalDate fechaLiquidacion;
-    private double limiteCredito;
+//    private LocalDate fechaLiquidacion;
+//    private double limiteCredito;
     
     // Inicio Constructor
     
@@ -32,7 +32,7 @@ public class Cuenta implements Serializable {
         this.titular = titular;
         this.correo = correo;
         this.saldo = 0;
-        this.fechaLiquidacion = LocalDate.now();
+//        this.fechaLiquidacion = LocalDate.now();
         // this.limiteCredito = this.tipoCuenta.;
     }
     
@@ -41,7 +41,7 @@ public class Cuenta implements Serializable {
         this.titular = titular;
         this.dni = dni;
         this.saldo = saldo;
-        this.fechaLiquidacion = LocalDate.now();
+//        this.fechaLiquidacion = LocalDate.now();
     }
     
     public Cuenta() {
@@ -108,21 +108,21 @@ public class Cuenta implements Serializable {
         this.saldo = saldo;
     }
     
-    public LocalDate getFechaLiquidacion() {
-        return fechaLiquidacion;
-    }
-
-    public void setFechaLiquidacion(LocalDate fechaLiquidacion) {
-        this.fechaLiquidacion = fechaLiquidacion;
-    }
-
-    public double getLimiteCredito() {
-        return limiteCredito;
-    }
-
-    public void setLimiteCredito(double limiteCredito) {
-        this.limiteCredito = limiteCredito;
-    }
+//    public LocalDate getFechaLiquidacion() {
+//        return fechaLiquidacion;
+//    }
+//
+//    public void setFechaLiquidacion(LocalDate fechaLiquidacion) {
+//        this.fechaLiquidacion = fechaLiquidacion;
+//    }
+//
+//    public double getLimiteCredito() {
+//        return limiteCredito;
+//    }
+//
+//    public void setLimiteCredito(double limiteCredito) {
+//        this.limiteCredito = limiteCredito;
+//    }
     
     // Fin Getters y Setters
     
