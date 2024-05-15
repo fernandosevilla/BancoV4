@@ -1,6 +1,12 @@
 package bancoV4;
 
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
+import jakarta.xml.bind.annotation.XmlRootElement;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -11,6 +17,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.*;
 
+@XmlRootElement
 public class Banco implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -18,6 +25,10 @@ public class Banco implements Serializable {
     private LinkedHashSet<Cuenta> cuentas;
     private int numeroCuentas;
     private static final int MAX_CUENTAS = 100;
+    
+    public Banco() {
+        this.cuentas = new LinkedHashSet<>();
+    }
 
     public Banco(String nombre) {
         this.nombre = nombre;
@@ -56,6 +67,36 @@ public class Banco implements Serializable {
             this.cuentas.add(new Cuenta(codigo, tipoCuenta, dni, nombreTitular, correo));
             this.numeroCuentas++;
             return true;
+        }
+    }
+    
+    public void guardarAXML(String nombreArchivo) {
+        try {
+            JAXBContext context = JAXBContext.newInstance(Banco.class);
+            Marshaller marshaller = context.createMarshaller();
+            
+            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+            marshaller.marshal(this, new File(nombreArchivo));
+            
+            System.out.println("Ya se ha exportado todo a XML");
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static Banco recuperarXML(String nombreArchivo) {
+        try {
+            JAXBContext context = JAXBContext.newInstance(Banco.class);
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+            
+            Banco banco = (Banco) unmarshaller.unmarshal(new File(nombreArchivo));
+            
+            System.out.println("Se han importado los datos del XML");
+            
+            return banco;
+        } catch (JAXBException e) {
+            e.printStackTrace();
+            return null;
         }
     }
 
