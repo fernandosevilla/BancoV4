@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<banco>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-1</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>101.01</saldo>
+        <titular>Nombre titular 1</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-2</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>202.02</saldo>
+        <titular>Nombre titular 2</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-3</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>303.03</saldo>
+        <titular>Nombre titular 3</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-4</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>404.04</saldo>
+        <titular>Nombre titular 4</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-5</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>505.05</saldo>
+        <titular>Nombre titular 5</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-6</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>606.06</saldo>
+        <titular>Nombre titular 6</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-7</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>707.07</saldo>
+        <titular>Nombre titular 7</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-8</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>808.08</saldo>
+        <titular>Nombre titular 8</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-9</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>909.09</saldo>
+        <titular>Nombre titular 9</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-10</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1010.1</saldo>
+        <titular>Nombre titular 10</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-11</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1111.11</saldo>
+        <titular>Nombre titular 11</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-12</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1212.12</saldo>
+        <titular>Nombre titular 12</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-13</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1313.13</saldo>
+        <titular>Nombre titular 13</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-14</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1414.14</saldo>
+        <titular>Nombre titular 14</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-15</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1515.15</saldo>
+        <titular>Nombre titular 15</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-16</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1616.16</saldo>
+        <titular>Nombre titular 16</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-17</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1717.17</saldo>
+        <titular>Nombre titular 17</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-18</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1818.18</saldo>
+        <titular>Nombre titular 18</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-19</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>1919.19</saldo>
+        <titular>Nombre titular 19</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-20</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2020.2</saldo>
+        <titular>Nombre titular 20</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-21</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2121.21</saldo>
+        <titular>Nombre titular 21</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-22</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2222.22</saldo>
+        <titular>Nombre titular 22</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-23</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2323.23</saldo>
+        <titular>Nombre titular 23</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-24</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2424.24</saldo>
+        <titular>Nombre titular 24</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-25</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2525.25</saldo>
+        <titular>Nombre titular 25</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-26</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2626.26</saldo>
+        <titular>Nombre titular 26</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-27</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2727.27</saldo>
+        <titular>Nombre titular 27</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-28</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2828.28</saldo>
+        <titular>Nombre titular 28</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-29</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>2929.29</saldo>
+        <titular>Nombre titular 29</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-30</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3030.3</saldo>
+        <titular>Nombre titular 30</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-31</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3131.31</saldo>
+        <titular>Nombre titular 31</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-32</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3232.32</saldo>
+        <titular>Nombre titular 32</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-33</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3333.33</saldo>
+        <titular>Nombre titular 33</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-34</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3434.34</saldo>
+        <titular>Nombre titular 34</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-35</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3535.35</saldo>
+        <titular>Nombre titular 35</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-36</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3636.36</saldo>
+        <titular>Nombre titular 36</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-37</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3737.37</saldo>
+        <titular>Nombre titular 37</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-38</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3838.38</saldo>
+        <titular>Nombre titular 38</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-39</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>3939.39</saldo>
+        <titular>Nombre titular 39</titular>
+    </cuentas>
+    <cuentas>
+        <dni>12345678Z</dni>
+        <iban>Cuenta-40</iban>
+        <limiteCredito>0.0</limiteCredito>
+        <saldo>4040.4</saldo>
+        <titular>Nombre titular 40</titular>
+    </cuentas>
+    <nombre>xd</nombre>
+    <numeroCuentas>0</numeroCuentas>
+</banco>
