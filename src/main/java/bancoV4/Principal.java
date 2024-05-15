@@ -4,7 +4,7 @@
  */
 package bancoV4;
 
-import java.io.IOException;
+import static bancoV4.Banco.recuperarXML;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -30,7 +30,9 @@ public class Principal {
                 System.out.println("9. Cargar Datos");
                 System.out.println("10. Importar cuentas CSV");
                 System.out.println("11. Importar movimientos CSV");
-                System.out.println("12. Salir");
+                System.out.println("12. Exportar datos a XML");
+                System.out.println("13. Importar datos de un XML");
+                System.out.println("14. Salir");
                 System.out.print("Selecciona una opción: ");
                 
                 opcion = teclado.nextInt();
@@ -263,18 +265,29 @@ public class Principal {
                         }
                         break;
                     case 12:
+                        if (miBanco != null) {
+                            System.out.print("Escribe el nombre del archivo XML donde quieras guardar este banco: ");
+                            String nombreXML = teclado.nextLine() + ".xml";
+                            
+                            miBanco.guardarAXML(nombreXML);
+                        } else {
+                            System.out.println("No hay ningun banco creado");
+                        }
+                        break;
+                    case 13:
+                        if (miBanco != null) {
+                            System.out.println("Ya existe un banco");
+                        } else {
+                            System.out.print("Escribe el nombre del archivo XML de donde recogerar los datos: ");
+                            String nombreXML = teclado.nextLine() + ".xml";
+                            miBanco = recuperarXML(nombreXML);
+                        }
+                        
+                        break;
+                    case 14:
                         break;
                 }
-            } while (opcion != 12);
-        }
-    }
-    
-    public static void guardarDatos(Banco miBanco, String archivo) {
-        try {            
-            miBanco.guardarBanco(archivo);
-            System.out.println("El banco se ha guardado en el archivo" + archivo);
-        } catch (IOException e) {
-            System.out.println("Error: " + e);
+            } while (opcion != 14);
         }
     }
 }
